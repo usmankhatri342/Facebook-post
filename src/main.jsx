@@ -1,6 +1,6 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import myIm from "./assets/usmanimg.jpg";
+import myIm from "./assets/usmanimg2.jpeg";
 import imgNew from "./assets/ronaldo.jpeg";
 import { SlOptionsVertical } from "react-icons/sl";
 import { AiOutlineLike } from "react-icons/ai";
