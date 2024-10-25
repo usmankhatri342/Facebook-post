@@ -21,8 +21,8 @@ function Post() {
             title="Click here to visit profile"
           />
        
-          <div>
-            <h3>Usman Ramzan</h3>
+          <div id="userdiv">
+            <h3 id="userName">Usman Ramzan</h3>
             <span>1 hours ago</span>
           </div>
         </div>
@@ -35,9 +35,9 @@ function Post() {
       <img src={imgNew} alt="post image" className="post-photo" id="my-id" />
 
       <div className="like-icon">
-      <AiOutlineLike size={30} id='likebtn' title="Click to like" />
-      <VscCommentDiscussion size={30} id='commentbtn'title="Comment"/>
-      <VscLiveShare size={30} id='sharebtn'title="Share"/>
+      <AiOutlineLike size={25} id='btntwo' title="Click to like" />
+      <VscCommentDiscussion size={25} id='btnthree'title="Comment"/>
+      <VscLiveShare size={25} id='btnfour'title="Share"/>
 
       </div>
     </div>
