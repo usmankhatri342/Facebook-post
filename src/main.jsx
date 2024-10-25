@@ -1,15 +1,11 @@
-
-
-
-
-
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import car1 from "./assets/car.jpg";
-import { SlOptions } from "react-icons/sl";
-import { FcLike } from "react-icons/fc";
-import { BiCommentDetail } from "react-icons/bi";
-import { IoMdShareAlt } from "react-icons/io";
+import myIm from "./assets/usmanimg.jpg";
+import imgNew from "./assets/ronaldo.jpeg";
+import { SlOptionsVertical } from "react-icons/sl";
+import { AiOutlineLike } from "react-icons/ai";
+import { VscCommentDiscussion } from "react-icons/vsc";
+import { VscLiveShare } from "react-icons/vsc";
 import "./style.css";
 
 function Post() {
@@ -17,32 +13,32 @@ function Post() {
     <div className="post-container">
       <div className="post-header">
         <div className="post-user-detail">
-          <img
-            src="https://i.imgur.com/yXOvdOSs.jpg"
-            alt="Hedy Lamarr"
+        <img
+            src={myIm}
+            alt="Loading"
             className="dp"
             id="my-id"
+            title="Click here to visit profile"
           />
+       
           <div>
-            <h3>Shehzad Iqbal</h3>
-            <span>15 min ago</span>
+            <h3>Usman Ramzan</h3>
+            <span>1 hours ago</span>
           </div>
         </div>
-        <SlOptions />
+        <SlOptionsVertical />
       </div>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-        architecto quaerat sunt illum, esse eveniet quas minima, non aperiam,
-        praesentium impedit itaque enim fugit? Iure explicabo molestiae
-        asperiores exercitationem minus.
+      Cristiano Ronaldo told he’ll never hit 1000 goals: 'His time in football is over'
       </p>
-      <img src={car1} alt="post image" className="post-photo" id="my-id" />
+      <img src={imgNew} alt="post image" className="post-photo" id="my-id" />
 
-      <div>
-        <FcLike />
-        <BiCommentDetail />
-        <IoMdShareAlt />
+      <div className="like-icon">
+      <AiOutlineLike size={30} id='likebtn' title="Click to like" />
+      <VscCommentDiscussion size={30} id='commentbtn'title="Comment"/>
+      <VscLiveShare size={30} id='sharebtn'title="Share"/>
+
       </div>
     </div>
   );
