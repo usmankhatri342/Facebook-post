@@ -15,7 +15,7 @@ function Post() {
         <div className="post-user-detail">
         <img
             src={myIm}
-            alt="Loading"
+            alt="Image"
             className="dp"
             id="my-id"
             title="Click here to visit profile"
