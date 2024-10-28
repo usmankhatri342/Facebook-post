@@ -12,6 +12,11 @@ import imgNew4 from "./assets/imgeone.jpeg";
 import imgNew3 from "./assets/imgefive.jpg";
 import imgNew2 from "./assets/imgeseven.jpg";
 import imgNew1 from "./assets/imgetwo.jpeg";
+import { BsEmojiHeartEyes } from "react-icons/bs";
+import { BsEmojiAstonished } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa";
+import { FcLike } from "react-icons/fc";
+
 
 
 
@@ -52,12 +57,22 @@ function Post(Props) {
         id="my-id" /> : null
         
         }
+        <br/><br/>
+        <div id="emoji">
+       <div id="emoji1"><BsEmojiHeartEyes /></div>
+       <div id="emoji2"><BsEmojiAstonished /></div>
+       <div id="emoji3"><FcLike /></div> 
+        </div>
 
       <div className="like-icon">
       <AiOutlineLike size={25} id='btntwo' title="Click to like" />
       <VscCommentDiscussion size={25} id='btnthree'title="Click to Comment"/>
       <VscLiveShare size={25} id='btnfour'title=" Click Share"/>
-
+      <div id="lcs">
+        <div>Like</div>
+        <div>Comments</div>
+        <div>Share</div> 
+        </div>
       </div>
     </div>
   );
