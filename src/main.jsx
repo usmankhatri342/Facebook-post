@@ -40,6 +40,7 @@ function Post(Props) {
 
       <p>
       Cristiano Ronaldo told he’ll never hit 1000 goals: 'His time in football is over'.
+      Cristiano Ronaldo told he’ll never hit 1000 goals: 'His time in football is over'.
       </p>
       
      {
@@ -74,12 +75,12 @@ function App() {
       <Post 
       name = "Ayan Usman"
       dpimg = "https://e0.pxfuel.com/wallpapers/747/277/desktop-wallpaper-cute-baby-girl-kids-cute-baby-boy-cute-baby-girl-baby-girl-little-kids.jpg"
-      postImg = {imgNew}
+      
       />
       <Post
        name = "Ayub"
        dpimg = "https://1.bp.blogspot.com/-6Q900kubqIw/YQQCLhrpiXI/AAAAAAAA_pc/KIWq8-4ZDfAr4TZn_7hTVfYmSoQm97eCwCLcBGAsYHQ/s1024/393866.jpg"
-       
+       postImg = {imgNew3}
        />
       <Post
        name = "Rashid"
@@ -88,7 +89,7 @@ function App() {
       <Post
        name = "Ihsan"
        dpimg = "https://www.unigreet.com/wp-content/uploads/2022/10/baby-images-for-whatsapp-dp.jpg"
-       postImg = {imgNew3}
+       postImg = {imgNew} 
        />
       <Post
        name = "Gaffar"
